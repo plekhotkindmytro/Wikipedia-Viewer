@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Wikipedia viewer</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 offset-2">
+                    <h1 class="mt-5">Wikipedia viewer</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 offset-2">
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control" placeholder="Search" aria-describedby="search-btn" id="search-text">
+                        <span class="input-group-addon btn-outline-success" id="search-btn">
+                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-8 offset-2">
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-outline-info" id="random-btn" target="_blank">Read a random article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="result">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Developed with <img draggable="false" class="emoji" src="love.svg" alt="love"> by <a href="https://plekhotkindmytro-portfolio.herokuapp.com/"><b id="developer">Dmytro Plekhotkin</b></a>
+    </footer>
+    </div>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
